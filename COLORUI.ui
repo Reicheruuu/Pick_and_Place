@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>948</width>
+    <height>610</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-30</y>
+     <width>971</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Tab 1</string>
+    </attribute>
+    <widget class="QPushButton" name="redButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>120</y>
+       <width>411</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>Red</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>red-color-solid-background-1920x1080.png</normaloff>red-color-solid-background-1920x1080.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>1980</width>
+       <height>800</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Background">
+     <property name="geometry">
+      <rect>
+       <x>-30</x>
+       <y>-40</y>
+       <width>1021</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>images/bg.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="greenButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>280</y>
+       <width>411</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Green</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>green-color-solid-background-1920x1080.png</normaloff>green-color-solid-background-1920x1080.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>1980</width>
+       <height>800</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="yellowButton">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>440</y>
+       <width>411</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Yellow</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>naples-yellow-painted-swatch.jpg</normaloff>naples-yellow-painted-swatch.jpg</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>1980</width>
+       <height>800</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>80</y>
+       <width>421</width>
+       <height>501</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>Background</zorder>
+    <zorder>redButton</zorder>
+    <zorder>greenButton</zorder>
+    <zorder>yellowButton</zorder>
+    <zorder>label_2</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Tab 2</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-20</y>
+       <width>1031</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>2.png</pixmap>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
